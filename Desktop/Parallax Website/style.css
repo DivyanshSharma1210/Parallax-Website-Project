@@ -1,0 +1,66 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing:inherit;
+}
+.firstimage
+{
+    background-image: url(./pexels-eberhard-grossgasteiger-1062249.jpg);
+    min-height:500px;
+}
+
+.secondimage
+{
+    background-image: url(./pexels-eberhard-grossgasteiger-1367105.jpg);
+    min-height:500px;
+    opacity:0.9;
+}
+
+.thirdimage
+{
+    background-image:url(./pexels-eberhard-grossgasteiger-1183021.jpg);
+    min-height:500px;
+}
+
+.fourthimage
+{
+    background-image:url(./pexels-pixabay-36717.jpg);
+    min-height:500px;
+}
+
+.firstimage,.secondimage,.thirdimage,.fourthimage
+{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment:fixed;
+}
+
+section{
+    text-align:center;
+    /* background-color: beige; */
+    padding:3rem 5rem;
+}
+
+#light
+{
+    background-color: #282e34;
+    color:#ddd;
+}
+#dark
+{
+    background-color: #282e34;
+    color:#ddd;
+}
+
+.image 
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
